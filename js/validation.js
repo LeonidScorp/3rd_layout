@@ -29,6 +29,7 @@ $(function() {
             }
         } else {
             $("#name").removeClass("form-error");
+            $("#name").attr('placeholder', "");
         }
 
         if ((phone==null)||(phone.search(phoneReg))){
@@ -40,6 +41,7 @@ $(function() {
             }
         } else {
             $("#phone").removeClass("form-error");
+            $("#phone").attr('placeholder', "");
         }
 
         if ((email==null)||(email.search(emailReg))){
@@ -51,6 +53,7 @@ $(function() {
             }
         } else {
             $("#email").removeClass("form-error");
+            $("#email").attr('placeholder', "");
         }
         if (errors == 0) {
             return true;

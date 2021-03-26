@@ -291,7 +291,17 @@
             $(".form-container").fadeIn();
         });
         $(".form-close").click(function() {
+            $(".error-name").text("");
+            $(".error-phone").text("");
+            $(".error-email").text("");
+            $("#name").removeClass("form-error");
+            $("#name").attr('placeholder', "");
+            $("#phone").removeClass("form-error");
+            $("#phone").attr('placeholder', "");
+            $("#email").removeClass("form-error");
+            $("#email").attr('placeholder', "");
             $(".form-container").fadeOut();
+
         });
 
 
