@@ -690,5 +690,8 @@ form h3 {
     font-weight: 400;
     font-style: italic;
     color: #dc7f7f;
+}
 
+textarea {
+    resize: none;
 }
