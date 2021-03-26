@@ -208,6 +208,7 @@ aside .article-title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: min-content;
 }
 
 aside .articles a:link, aside .articles a:visited {
