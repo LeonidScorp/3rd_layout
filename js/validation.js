@@ -6,7 +6,7 @@ $(function() {
         let nameReg = /^[a-zA-Z\u0401\u0451\u0410-\u044f]{2,40}$/;
         let emailReg = /^\S+@\S+\.\S+$/;
         let phoneReg = /^[0-9\-\+]{9,15}$/;
-        let errors = 0;88
+        let errors = 0;
 
         if (!(name.search(nameReg))) {
             $(".error-name").text("");
