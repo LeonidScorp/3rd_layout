@@ -488,6 +488,7 @@ aside .subcategories-item a:hover  {
 }
 
 .above-slider {
+    background-color: #f8f8f8;
     margin-top: -62px;
     overflow: hidden;
     width: 100%;
